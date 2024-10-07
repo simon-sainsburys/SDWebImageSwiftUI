@@ -9,6 +9,7 @@
 import SwiftUI
 import SDWebImage
 
+@available(iOS 14.0, *)
 public enum WebImagePhase {
     /// No image is loaded.
     case empty
